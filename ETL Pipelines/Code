@@ -1,0 +1,26 @@
+# Automated Weather Data ETL Pipeline Using Apache Airflow
+
+## Project Description:
+Developed an automated ETL (Extract, Transform, Load) pipeline to fetch, process, and store real-time weather data using Apache Airflow. The pipeline extracts weather data for London from the Open-Meteo API, transforms it using Python, and loads it into a PostgreSQL database for storage and analysis. The workflow is scheduled to run daily, ensuring continuous data updates and accessibility for further analytics.
+
+## Key Responsibilities:
+- Designed and implemented an Airflow DAG to orchestrate the ETL process.
+- Utilized Airflow’s HttpHook to extract real-time weather data.
+- Processed and transformed raw JSON weather data into a structured format using Python and Pandas.
+- Integrated PostgreSQL as the data warehouse for storing and managing the transformed data.
+- Configured Airflow PostgresHook for seamless database interaction and data loading.
+- Scheduled the ETL workflow to run daily, ensuring up-to-date weather information.
+- Deployed and tested the pipeline locally using Astro CLI and Docker for easy scalability.
+
+## Technologies Used:
+- **Apache Airflow** – Workflow orchestration and scheduling.
+- **Python & Pandas** – Data extraction, transformation, and manipulation.
+- **Open-Meteo API** – Source for real-time weather data.
+- **PostgreSQL** – Data storage and retrieval.
+- **Airflow Hooks (HttpHook, PostgresHook)** – API and database interaction.
+- **Astro CLI & Docker** – Deployment and environment management.
+
+## Outcome:
+- Fully automated ETL pipeline ensuring daily updates of weather data.
+- Structured and accessible weather dataset stored in PostgreSQL for analysis.
+- Scalable and maintainable data pipeline using Airflow’s workflow management capabilities.
